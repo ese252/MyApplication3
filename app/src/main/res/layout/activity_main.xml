@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+        android:text="First quarter"
+        android:padding="5dp"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+     />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#ff0000"
+        android:layout_margin="5dp">
+    </View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="JAN"
+                android:background="#C0C0C0"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:src="@drawable/img3"
+                android:adjustViewBounds="false"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="0dp"
+                />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="FEB"
+            android:background="#C0C0C0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/img3"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="MAR"
+            android:background="#C0C0C0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/img3"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Second quarter"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:padding="5dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#ff0000"
+        android:layout_margin="5dp">
+    </View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="APR"
+            android:background="#C0C0C0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/img3"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="MAY"
+            android:background="#C0C0C0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/img3"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
